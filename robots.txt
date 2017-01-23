@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: http://ontimeapp.azurewebsites.net/sitemap.xml

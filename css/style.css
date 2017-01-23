@@ -1,0 +1,172 @@
+/*
+   Copyright onTime Group 2014 - Opening Opportunities Team
+   Presentation website created for onTime App WP7 
+   More details and contact on social pages.
+   
+    Authors:
+    
+    Developer: Roberto Tamas
+    Design: Alexandru Munteanu    
+*/
+
+
+html,body{
+    font-family: "Open Sans", helvetica, arial;
+    width:100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+}  
+/*PreLoader*/
+ #qLoverlay
+{
+	width: 100%;
+    height: 100%;
+	background-color: black;
+	background-image: url("../images/load.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 9999999999;
+	top: 0;
+	left: 0;
+}
+
+.intro {
+    /*background-image: url(../images/bg-desk.jpg);*/
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed; 
+	background-position:center;
+	width:100%;
+	min-height:100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+	position: relative;
+    overflow: hidden;    
+}
+
+video#bgvid { 
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(../images/bg-desk.jpg) no-repeat;
+    background-size: cover; 
+}
+video { display: block; }
+@media screen and (max-device-width: 800px) {
+    .intro { background-image: url(../images/bg-home-phone.jpg); }
+    #bgvid { display: none; }
+} 
+
+
+#ontime-logo {
+    width: auto; 
+    height: 18em;
+    margin-top: 15%;
+}
+@media (max-width: 600px) {
+    #ontime-logo {margin-top: 5%;}
+}
+.ontime h1 {
+    color: #fcfcfc;
+    font-size: 4.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.ontime h2 {
+    color: #fcfcfc;
+    font-size: 1.4em;    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+.ontime h2 a {text-decoration: none; color: #fcfcfc;}
+.app-buton {
+    background-color: #21395D;
+    color: #FCFCFC;
+    box-shadow: 0px 3px 0px #001432;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0.6em 0.5em;
+    width: 8.5em;
+    margin: 4em auto;
+    border-radius: 1px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.app-buton:hover {
+    background-color: #001432;
+    color: #FCFCFC;
+    box-shadow: 0px 3px 0px #001432;
+    transition: 0.3s;
+}
+.store-buton {
+    box-shadow: 0px 3px 0px #2A0933;
+    font-size: 1.2em;
+    text-align: center;
+    width: 8.5em;
+    margin: 4em auto 4em 1em;
+    display: inline-block;
+    background-color: #E4E4E4;
+    padding: 0.6em 0.5em;
+    color: #2A0933;
+    border-radius: 1px;
+    transition: 0.3s;
+    padding-right: 21px;
+}
+.store-buton:hover {
+    box-shadow: 0px 3px 0px #2A0933;
+    background-color: #2A0933;
+    color: #E4E4E4;
+    transition: 0.3s;
+}
+.ontime a {text-decoration: none; }
+
+.icon-store {
+    width: 14px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 777px) and (min-width: 768px) { .store-buton {margin: 0;} }
+@media (max-width: 419px) {
+    #ontime-logo {
+        width: auto; 
+        height: 10em;
+        margin-top: 30%;
+    }
+    .ontime h1 { font-size: 2.5em; }
+    /*.app-buton { font-size: 1em;  }
+    .store-buton { font-size: 1em;  } */
+    .store-buton {margin: 0;}
+}
+
+/* FOOTER */
+.container-footer {
+    padding: 1.7em 1em;
+    color: #fcfcfc;
+    font-size: 1.1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    background-color: #121212;
+}
+.support-logo, .footer-links {list-style-type: none; margin: 0; padding: 0; display: inline-block;}
+.support-logo li {
+    display: inline;    
+    padding: 0 5px;
+}
+.support-logo > li > a > img {height: 1.7em; width: auto; text-decoration: none;}
+.support-logo > li > a:hover {text-decoration: none;}
+.footer-links li {
+    display: inline;    
+    padding-left: 1em;
+    margin-left: 1em;
+    border-left: 1px solid #fcfcfc;
+}
+.footer-links li a { color: #fcfcfc; }
+@media (max-width: 1000px) {
+   .support-logo, .footer-links {margin-top: 0.5em;}
+}

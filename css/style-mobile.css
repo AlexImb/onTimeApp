@@ -1,0 +1,188 @@
+/*
+   Copyright onTime Group 2014 - Opening Opportunities Team
+   Presentation website created for onTime App WP7 
+   More details and contact on social pages.
+   
+    Authors:
+    
+    Developer: Alex Imbrea
+    Design: Alexandru Munteanu 
+    
+    */
+#slide2 {
+        background: #5ca69c;
+}
+#slide3 {
+
+    background: #51a363;
+
+}
+#slide4  {
+    background:#4a4e66; 
+}
+#slide5 {
+    background: #c45e50;
+}
+#slide6 {
+        background: #5ca69c;
+}
+#slide7 {
+    background: #85d1d4;
+}
+.o2, .o3, .o4, .o5, .o6, .o7 {
+    display: none;
+}
+
+
+#onTimeImg {
+    width: 275px;
+    height: 65px;
+     margin: -32px 0 0 -138px;
+
+}
+
+.button {
+    	top: 45%;
+        font-size: 0.75em;
+        width: 92px;
+        height:22px;
+        margin: 14px 0px 0px -46px;
+        padding-top: 6px;
+}
+.onTimeLogo2 {
+    opacity: 0;
+}
+.meniu-dreapta {
+  position: absolute;
+ width: 29%;
+ height: 40px;
+ top: 19px;
+ right: 132px;
+}
+
+
+.wp {
+    position: absolute;
+    height: 45%;
+    left: 18%;
+
+}
+
+
+.text {
+    position: absolute;
+    width: 30%;
+    word-wrap: break-word;
+    color: white;
+    top: 30%;
+    right: 10%;
+    font-size: 24px;
+}
+#slide2 .text , #slide4 .text , #slide6 .text {
+   
+}
+#slide2 .wp , #slide4 .wp , #slide6 .wp {
+    left: 20%;
+
+}
+#slide3 .text , #slide5 .text , #slide7 .text {
+   
+    left: 20%;
+}
+#slide3 .wp , #slide5 .wp , #slide7 .wp {
+
+    right: 40%;
+}
+
+
+.slideno {
+    font-size: 40px;
+    left: initial;
+    right: 50px;
+    
+}
+/*
+
+#contact{
+    background-image: none;
+    background-color: #4a4e66;
+    font-size:20px;
+}
+
+#contact .stanga {
+    padding-top: 10px;
+    width: 58%;
+    float:left;
+    padding-left: 4%;
+}
+
+#contact .stanga h4 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: 80%;
+    float:left;
+
+}
+
+
+#contact .dreapta {
+       padding-top: 15px;
+    width: 38%;
+    float: left;
+}
+#contact .dreapta h2 {
+    margin-top: 4%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.support img {
+    float: left;
+    width: 100px;
+}
+.support h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.support {
+    width: 100%;
+    float: left;
+    margin-left: 4%;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 14px;
+    color: #dcdcdc;
+
+}
+.news {
+    height:30px;
+    width: 60%;
+    margin-bottom: 1%;
+    background-color: #f6f6f6;
+    color: #626262;
+    border: none;
+font-family: "Open Sans", helvetica, arial;
+    font-size: 14px;
+    padding-left: 2%;
+}
+.news_btn {
+   width: 20%;
+   height: 50px;
+   background-color: #1c1c1c;
+   color: #f6f6f6;
+   border: none;
+   font-size: 14px;
+   text-align: center;
+   vertical-align: middle;
+}
+.news_btn:hover {
+   color: #1c1c1c;
+   background-color: #f6f6f6;
+   border-color: #f6f6f6;
+}
+*/
